@@ -1,5 +1,4 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
-import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -28,8 +27,6 @@ type EpisodeProps = {
 }
 
 export default function Episode({ episode }: EpisodeProps) {
-  const router = useRouter();
-
   return (
 
     <div className={styles.episode}>
@@ -68,7 +65,13 @@ export default function Episode({ episode }: EpisodeProps) {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: [],
+    paths: [
+      {
+        params: {
+          slug: 'a-importancia-da-contribuicao-em-open-source'
+        }
+      }
+    ],
     fallback: 'blocking'
   }
 }
