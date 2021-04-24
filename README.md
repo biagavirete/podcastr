@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Podcastr
 
-## Getting Started
+NextJS project using TypeScript and React developed during Rocketseat's NLW #5.
+<br />
+The application allows users to listen to podcasts' episodes using the player on the right side of the page.
+<br />
 
-First, run the development server:
+<p align="center"><img src="https://github.com/biagavirete/podcastr/blob/main/src/podcastr-gif.gif" width="50%"></p>
+
+## Getting started
+
+**Installing**
+> Cloning the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ git clone https://github.com/biagavirete/podcastr.git
+$ cd podcastr
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Running**
+> Installing dependencies
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+$ yarn
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+> Running fake server
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+$ yarn server
+```
 
-## Learn More
+> Running Next
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+$  yarn dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Built with
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* TypeScript
+* NextJS
+* React
+* Axios
+* Date FNS
+* Sass
