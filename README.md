@@ -5,7 +5,7 @@ NextJS project using TypeScript and React developed during Rocketseat's NLW #5.
 The application allows users to listen to podcasts' episodes using the player on the right side of the page.
 <br />
 
-<p align="center"><img src="https://github.com/biagavirete/podcastr/blob/main/src/podcastr-gif.gif" width="50%"></p>
+<p align="center"><img src="https://github.com/biagavirete/podcastr/blob/main/src/podcastr-gif.gif" width="70%"></p>
 
 ## Getting started
 
